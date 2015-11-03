@@ -1,7 +1,7 @@
 # Javascript101
 
 ###functions
-`function halloween(name){
+function halloween(name){
   return 'hello ' + name;
 }
 document.getElementById('demo').innerHTML = halloween('terry');
@@ -9,10 +9,10 @@ document.getElementById('demo').innerHTML = halloween('terry');
 var xmas = function(named){
   document.getElementById('demo2').innerHTML = 'bonjour ' + named;
 };
-xmas('june');`
+xmas('june');
 
 ###conditional operators
-`//switch statement
+//switch statement
 var age = 5;
 switch(age) {
 	case 6 :
@@ -27,10 +27,10 @@ switch(age) {
 
 //ternary operator
 (condition) ? ifTrue : ifFalse
-var drinks = (age >= 21) ? true : false;`
+var drinks = (age >= 21) ? true : false;
 
 ###looping
-`//while loop
+//while loop
 var i = 1;
 while(i <= 10) {
   document.write(i + "<br />");
@@ -57,5 +57,4 @@ for (j = 0; j <= 20; j++) {
     break;
   }
   document.write(j + "<br />");
-}`
-
+}
