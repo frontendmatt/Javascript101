@@ -1,5 +1,5 @@
 # Javascript101
-[http://frontendmatt.github.io/Javascript101]{http://frontendmatt.github.io/Javascript101}
+{http://frontendmatt.github.io/Javascript101}
 
 Object data type <br />
 5 primitive data types : number, string, boolean, undefined and null. <br />
