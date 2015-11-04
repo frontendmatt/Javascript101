@@ -16,7 +16,7 @@ var person = {name:"Fred"}; <br />
 var anotherPerson = person; <br />
 person.name = "Max"; <br />
 log(anotherPerson.name) //Max <br />
-log(person.name) Max// <br />
+log(person.name) //Max <br />
 
 ###functions
 function halloween(name){ <br />
