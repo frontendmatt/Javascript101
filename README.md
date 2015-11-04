@@ -1,60 +1,78 @@
 # Javascript101
 
+Object data type <br />
+5 primitive data types : number, string, boolean, undefined and null. <br />
+An object is an unordered list of primitive data types stored as name-value pairs within properties or methods(functions) <br />
+
+//Primitive data type <br />
+var name = "Fred"; <br />
+var anotherName = name; <br />
+name = "Max" <br />
+log(anotherName) //Fred <br />
+log(name) //Max <br />
+
+//Reference data type <br />
+var person = {name:"Fred"}; <br />
+var anotherPerson = person; <br />
+person.name = "Max"; <br />
+log(anotherPerson.name) //Max <br />
+log(person.name) Max// <br />
+
 ###functions
-function halloween(name){
-  return 'hello ' + name;
+function halloween(name){ <br />
+  return 'hello ' + name; <br />
+} <br />
+document.getElementById('demo').innerHTML = halloween('terry'); <br />
+
+var xmas = function(named){ <br />
+  document.getElementById('demo2').innerHTML = 'bonjour ' + named; <br />
+}; <br />
+xmas('june'); <br />
+
+###conditional operators 
+//switch statement <br />
+var age = 5; <br />
+switch(age) { <br />
+	case 6 : <br />
+		document.write("You are 6"); <br />
+		break; <br />
+	case 4 : <br />
+		document.write("You are 4"); <br />
+		break; <br />
+	default : <br />
+		document.write("You are 3"); <br />
 }
-document.getElementById('demo').innerHTML = halloween('terry');
 
-var xmas = function(named){
-  document.getElementById('demo2').innerHTML = 'bonjour ' + named;
-};
-xmas('june');
-
-###conditional operators
-//switch statement
-var age = 5;
-switch(age) {
-	case 6 :
-		document.write("You are 6");
-		break;
-	case 4 :
-		document.write("You are 4");
-		break;
-	default : 
-		document.write("You are 3");
-}
-
-//ternary operator
-(condition) ? ifTrue : ifFalse
-var drinks = (age >= 21) ? true : false;
+//ternary operator <br />
+(condition) ? ifTrue : ifFalse <br />
+var drinks = (age >= 21) ? true : false; <br />
 
 ###looping
-//while loop
-var i = 1;
-while(i <= 10) {
-  document.write(i + "<br />");
-  i++;
-}
+//while loop <br />
+var i = 1; <br />
+while(i <= 10) { <br />
+  document.write(i + "<br />"); <br />
+  i++; <br />
+} <br />
 
-//do while
-do {
-  var guess = prompt("what is the number?");
-} while(guess!= 15)
-alert("You got it!!!");
+//do while <br />
+do { <br />
+  var guess = prompt("what is the number?"); <br />
+} while(guess!= 15) <br />
+alert("You got it!!!"); <br />
 
-//for loops
-for (i = 1; i <= 5; i++) {
-  document.write("Counting to 5");
-}
+//for loops <br />
+for (i = 1; i <= 5; i++) { <br />
+  document.write("Counting to 5"); <br />
+} <br />
 
-for (j = 0; j <= 20; j++) {
+for (j = 0; j <= 20; j++) { <br />
   
-  if((j % 2) === 0) {
-    continue;
-  }
-  if(j === 15) {
-    break;
-  }
-  document.write(j + "<br />");
-}
+  if((j % 2) === 0) { <br />
+    continue; <br />
+  } <br />
+  if(j === 15) { <br />
+    break; <br />
+  } <br />
+  document.write(j + "<br />"); <br />
+} <br />
