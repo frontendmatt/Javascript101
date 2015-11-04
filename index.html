@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Javascript101 by frontendmatt</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Javascript101</h1>
+        <p></p>
+
+        <p class="view"><a href="https://github.com/frontendmatt/Javascript101">View the Project on GitHub <small>frontendmatt/Javascript101</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/frontendmatt/Javascript101/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/frontendmatt/Javascript101/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/frontendmatt/Javascript101">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="javascript101" class="anchor" href="#javascript101" aria-hidden="true"><span class="octicon octicon-link"></span></a>Javascript101</h1>
+
+<p>Object data type <br>
+5 primitive data types : number, string, boolean, undefined and null. <br>
+An object is an unordered list of primitive data types stored as name-value pairs within properties or methods(functions) <br></p>
+
+<p>//Primitive data type <br>
+var name = "Fred"; <br>
+var anotherName = name; <br>
+name = "Max" <br>
+log(anotherName) //Fred <br>
+log(name) //Max <br></p>
+
+<p>//Reference data type <br>
+var person = {name:"Fred"}; <br>
+var anotherPerson = person; <br>
+person.name = "Max"; <br>
+log(anotherPerson.name) //Max <br>
+log(person.name) //Max <br></p>
+
+<h3>
+<a id="functions" class="anchor" href="#functions" aria-hidden="true"><span class="octicon octicon-link"></span></a>functions</h3>
+
+<p>function halloween(name){ <br>
+  return 'hello ' + name; <br>
+} <br>
+document.getElementById('demo').innerHTML = halloween('terry'); <br></p>
+
+<p>var xmas = function(named){ <br>
+  document.getElementById('demo2').innerHTML = 'bonjour ' + named; <br>
+}; <br>
+xmas('june'); <br></p>
+
+<h3>
+<a id="conditional-operators" class="anchor" href="#conditional-operators" aria-hidden="true"><span class="octicon octicon-link"></span></a>conditional operators</h3>
+
+<p>//switch statement <br>
+var age = 5; <br>
+switch(age) { <br>
+    case 6 : <br>
+        document.write("You are 6"); <br>
+        break; <br>
+    case 4 : <br>
+        document.write("You are 4"); <br>
+        break; <br>
+    default : <br>
+        document.write("You are 3"); <br>
+}</p>
+
+<p>//ternary operator <br>
+(condition) ? ifTrue : ifFalse <br>
+var drinks = (age &gt;= 21) ? true : false; <br></p>
+
+<h3>
+<a id="looping" class="anchor" href="#looping" aria-hidden="true"><span class="octicon octicon-link"></span></a>looping</h3>
+
+<p>//while loop <br>
+var i = 1; <br>
+while(i &lt;= 10) { <br>
+  document.write(i + "<br>"); <br>
+  i++; <br>
+} <br></p>
+
+<p>//do while <br>
+do { <br>
+  var guess = prompt("what is the number?"); <br>
+} while(guess!= 15) <br>
+alert("You got it!!!"); <br></p>
+
+<p>//for loops <br>
+for (i = 1; i &lt;= 5; i++) { <br>
+  document.write("Counting to 5"); <br>
+} <br></p>
+
+<p>for (j = 0; j &lt;= 20; j++) { <br></p>
+
+<p>if((j % 2) === 0) { <br>
+    continue; <br>
+  } <br>
+  if(j === 15) { <br>
+    break; <br>
+  } <br>
+  document.write(j + "<br>"); <br>
+} <br></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/frontendmatt">frontendmatt</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
