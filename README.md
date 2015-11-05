@@ -1,7 +1,7 @@
 # Javascript101
 http://frontendmatt.github.io/Javascript101
 
-Object data type <br />
+###Object data type
 5 primitive data types : number, string, boolean, undefined and null. <br />
 An object is an unordered list of primitive data types stored as name-value pairs within properties or methods(functions) <br />
 
