@@ -19,11 +19,11 @@ person.name = "Max"; <br />
 log(anotherPerson.name) //Max <br />
 log(person.name) //Max <br />
 
-Object literals <br />
+###Object literals
 //Empty object initialised using the object literal notation <br>
 var myTown = {}; <br>
 
-//object literal <br> 
+//one property one method object literal
 var batwing = { <br>
 	status: "ready", <br>
 	rescueBatman: function(){ <br>
