@@ -72,6 +72,16 @@ while(i <= 10) { <br />
   i++; <br />
 } <br />
 
+var numCars = 4; <br />
+var monthNumber = 1; <br />
+var monthsToPrint = 12; <br />
+while(monthNumber <= monthsToPrint){ <br />
+  numCars = numCars * 4; <br />
+	console.log("There will be " + numCars + " cars after " <br />
+              + monthNumber + " month(s)!"); <br />
+  monthNumber++; <br />
+} <br />
+
 //do while <br />
 do { <br />
   var guess = prompt("what is the number?"); <br />
