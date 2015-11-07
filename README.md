@@ -46,7 +46,7 @@ var xmas = function(named){ <br />
 }; <br />
 xmas('june'); <br />
 
-###conditional operators 
+###conditional statements
 //switch statement <br />
 var age = 5; <br />
 switch(age) { <br />
@@ -63,6 +63,38 @@ switch(age) { <br />
 //ternary operator <br />
 (condition) ? ifTrue : ifFalse <br />
 var drinks = (age >= 21) ? true : false; <br />
+
+//if else statement <br />
+function sleepCheck(numHours) { <br />
+    if(numHours >=8) { <br />
+    return "You're getting plenty of sleep! Maybe even too much!"; <br />
+} else { <br />
+    return "Get some more shut eye!"; <br />
+    } <br />0
+}; <br />
+sleepCheck(10); <br />
+
+//rock, paper, scissors game <br />
+var userChoice = prompt("Do you choose rock, paper or scissors?"); <br />
+var computerChoice = Math.random(); <br />
+if (computerChoice < 0.34) { <br />
+	computerChoice = "rock"; <br />
+} else if(computerChoice <= 0.67) { <br />
+	computerChoice = "paper"; <br />
+} else { <br />
+	computerChoice = "scissors"; <br />
+} console.log("Computer: " + computerChoice); <br />
+function compare(choice1, choice2) { <br />
+    if (choice1 === choice2) { <br />
+        return "The result is a tie!"; <br />
+    } else if (choice1 === "rock") { <br />
+        if (choice2 === "scissors"){ <br />
+            return "rock wins"; <br />
+            } else { <br />
+                return "paper wins"; <br />
+                } <br />
+      } <br />
+} <br />
 
 ###looping
 //while loop <br />
