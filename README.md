@@ -129,6 +129,7 @@ for (i = 1; i <= 5; i++) { <br />
   document.write("Counting to 5"); <br />
 } <br />
 
+
 for (j = 0; j <= 20; j++) { <br />
   
   if((j % 2) === 0) { <br />
@@ -140,5 +141,9 @@ for (j = 0; j <= 20; j++) { <br />
   document.write(j + "<br />"); <br />
 } <br />
 
+
+for (var counter = 1; counter < 11; counter++) { <br />
+	console.log(counter); <br />
+} <br />
 
 
