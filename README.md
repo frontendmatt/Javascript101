@@ -5,14 +5,14 @@ http://frontendmatt.github.io/Javascript101
 5 primitive data types : number, string, boolean, undefined and null. <br />
 An object is an unordered list of primitive data types stored as name-value pairs within properties or methods(functions) <br />
 
-//Primitive data type <br />
+####Primitive data type <br />
 var name = "Fred"; <br />
 var anotherName = name; <br />
 name = "Max" <br />
 log(anotherName) //Fred <br />
 log(name) //Max <br />
 
-//Reference data type <br />
+####Reference data type <br />
 var person = {name:"Fred"}; <br />
 var anotherPerson = person; <br />
 person.name = "Max"; <br />
@@ -20,10 +20,10 @@ log(anotherPerson.name) //Max <br />
 log(person.name) //Max <br />
 
 ###Object literals
-//Empty object initialised using the object literal notation <br>
+####Empty object initialised using the object literal notation <br>
 var myTown = {}; <br>
 
-//one property one method object literal
+####one property one method object literal
 var batwing = { <br>
 	status: "ready", <br>
 	rescueBatman: function(){ <br>
@@ -47,7 +47,7 @@ var xmas = function(named){ <br />
 xmas('june'); <br />
 
 ###conditional statements
-//switch statement <br />
+####switch statement <br />
 var age = 5; <br />
 switch(age) { <br />
 	case 6 : <br />
@@ -60,11 +60,11 @@ switch(age) { <br />
 		document.write("You are 3"); <br />
 }
 
-//ternary operator <br />
+####ternary operator <br />
 (condition) ? ifTrue : ifFalse <br />
 var drinks = (age >= 21) ? true : false; <br />
 
-//if else statement <br />
+####if else statement <br />
 function sleepCheck(numHours) { <br />
     if(numHours >=8) { <br />
     return "You're getting plenty of sleep! Maybe even too much!"; <br />
@@ -74,7 +74,7 @@ function sleepCheck(numHours) { <br />
 }; <br />
 sleepCheck(10); <br />
 
-//rock, paper, scissors game <br />
+####rock, paper, scissors game <br />
 var userChoice = prompt("Do you choose rock, paper or scissors?"); <br />
 var computerChoice = Math.random(); <br />
 if (computerChoice < 0.34) { <br />
@@ -101,7 +101,7 @@ console.log("paper wins"); <br />
 compare(userChoice, computerChoice); <br />
 
 ###looping
-//while loop <br />
+####while loop <br />
 var i = 1; <br />
 while(i <= 10) { <br />
   document.write(i + "<br />"); <br />
@@ -118,13 +118,13 @@ while(monthNumber <= monthsToPrint){ <br />
   monthNumber++; <br />
 } <br />
 
-//do while <br />
+####do while <br />
 do { <br />
   var guess = prompt("what is the number?"); <br />
 } while(guess!= 15) <br />
 alert("You got it!!!"); <br />
 
-//for loops <br />
+####for loops <br />
 for (i = 1; i <= 5; i++) { <br />
   document.write("Counting to 5"); <br />
 } <br />
