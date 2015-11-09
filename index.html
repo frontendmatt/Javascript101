@@ -39,15 +39,21 @@
 <p>5 primitive data types : number, string, boolean, undefined and null. <br>
 An object is an unordered list of primitive data types stored as name-value pairs within properties or methods(functions) <br></p>
 
-<p>//Primitive data type <br>
-var name = "Fred"; <br>
+<h4>
+<a id="primitive-data-type-" class="anchor" href="#primitive-data-type-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Primitive data type <br>
+</h4>
+
+<p>var name = "Fred"; <br>
 var anotherName = name; <br>
 name = "Max" <br>
 log(anotherName) //Fred <br>
 log(name) //Max <br></p>
 
-<p>//Reference data type <br>
-var person = {name:"Fred"}; <br>
+<h4>
+<a id="reference-data-type-" class="anchor" href="#reference-data-type-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reference data type <br>
+</h4>
+
+<p>var person = {name:"Fred"}; <br>
 var anotherPerson = person; <br>
 person.name = "Max"; <br>
 log(anotherPerson.name) //Max <br>
@@ -56,11 +62,16 @@ log(person.name) //Max <br></p>
 <h3>
 <a id="object-literals" class="anchor" href="#object-literals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Object literals</h3>
 
-<p>//Empty object initialised using the object literal notation <br>
-var myTown = {}; <br></p>
+<h4>
+<a id="empty-object-initialised-using-the-object-literal-notation-" class="anchor" href="#empty-object-initialised-using-the-object-literal-notation-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Empty object initialised using the object literal notation <br>
+</h4>
 
-<p>//one property one method object literal
-var batwing = { <br>
+<p>var myTown = {}; <br></p>
+
+<h4>
+<a id="one-property-one-method-object-literal" class="anchor" href="#one-property-one-method-object-literal" aria-hidden="true"><span class="octicon octicon-link"></span></a>one property one method object literal</h4>
+
+<p>var batwing = { <br>
     status: "ready", <br>
     rescueBatman: function(){ <br>
         console.log("Hello world!"); <br>
@@ -85,10 +96,13 @@ document.getElementById('demo').innerHTML = halloween('terry'); <br></p>
 xmas('june'); <br></p>
 
 <h3>
-<a id="conditional-operators" class="anchor" href="#conditional-operators" aria-hidden="true"><span class="octicon octicon-link"></span></a>conditional operators</h3>
+<a id="conditional-statements" class="anchor" href="#conditional-statements" aria-hidden="true"><span class="octicon octicon-link"></span></a>conditional statements</h3>
 
-<p>//switch statement <br>
-var age = 5; <br>
+<h4>
+<a id="switch-statement-" class="anchor" href="#switch-statement-" aria-hidden="true"><span class="octicon octicon-link"></span></a>switch statement <br>
+</h4>
+
+<p>var age = 5; <br>
 switch(age) { <br>
     case 6 : <br>
         document.write("You are 6"); <br>
@@ -100,32 +114,99 @@ switch(age) { <br>
         document.write("You are 3"); <br>
 }</p>
 
-<p>//ternary operator <br>
-(condition) ? ifTrue : ifFalse <br>
+<h4>
+<a id="ternary-operator-" class="anchor" href="#ternary-operator-" aria-hidden="true"><span class="octicon octicon-link"></span></a>ternary operator <br>
+</h4>
+
+<p>(condition) ? ifTrue : ifFalse <br>
 var drinks = (age &gt;= 21) ? true : false; <br></p>
+
+<h4>
+<a id="if-else-statement-" class="anchor" href="#if-else-statement-" aria-hidden="true"><span class="octicon octicon-link"></span></a>if else statement <br>
+</h4>
+
+<p>function sleepCheck(numHours) { <br>
+    if(numHours &gt;=8) { <br>
+    return "You're getting plenty of sleep! Maybe even too much!"; <br>
+} else { <br>
+    return "Get some more shut eye!"; <br>
+  } <br>0
+}; <br>
+sleepCheck(10); <br></p>
+
+<h4>
+<a id="rock-paper-scissors-game-" class="anchor" href="#rock-paper-scissors-game-" aria-hidden="true"><span class="octicon octicon-link"></span></a>rock, paper, scissors game <br>
+</h4>
+
+<p>var userChoice = prompt("Do you choose rock, paper or scissors?"); <br>
+var computerChoice = Math.random(); <br>
+if (computerChoice &lt; 0.34) { <br>
+computerChoice = "rock"; <br>
+} else if(computerChoice &lt;= 0.67) { <br>
+computerChoice = "paper"; <br>
+} else { <br>
+computerChoice = "scissors"; <br>
+} <br></p>
+
+<p>console.log("Computer: " + computerChoice); <br></p>
+
+<p>function compare(choice1, choice2) { <br>
+if (choice1 === choice2) { <br>
+console.log("The result is a tie!"); <br>
+} else if (choice1 === "rock") { <br>
+if (choice2 === "scissors"){ <br>
+console.log("rock wins"); <br>
+} else { <br>
+console.log("paper wins"); <br>
+} <br>
+} <br>
+} <br>
+compare(userChoice, computerChoice); <br></p>
 
 <h3>
 <a id="looping" class="anchor" href="#looping" aria-hidden="true"><span class="octicon octicon-link"></span></a>looping</h3>
 
-<p>//while loop <br>
-var i = 1; <br>
+<h4>
+<a id="while-loop-" class="anchor" href="#while-loop-" aria-hidden="true"><span class="octicon octicon-link"></span></a>while loop <br>
+</h4>
+
+<p>var i = 1; <br>
 while(i &lt;= 10) { <br>
   document.write(i + "<br>"); <br>
   i++; <br>
 } <br></p>
 
-<p>//do while <br>
-do { <br>
+<p>var numCars = 4; <br>
+var monthNumber = 1; <br>
+var monthsToPrint = 12; <br>
+while(monthNumber &lt;= monthsToPrint){ <br>
+  numCars = numCars * 4; <br>
+    console.log("There will be " + numCars + " cars after " <br>
+              + monthNumber + " month(s)!"); <br>
+  monthNumber++; <br>
+} <br></p>
+
+<h4>
+<a id="do-while-" class="anchor" href="#do-while-" aria-hidden="true"><span class="octicon octicon-link"></span></a>do while <br>
+</h4>
+
+<p>do { <br>
   var guess = prompt("what is the number?"); <br>
 } while(guess!= 15) <br>
 alert("You got it!!!"); <br></p>
 
-<p>//for loops <br>
-for (i = 1; i &lt;= 5; i++) { <br>
+<h4>
+<a id="for-loops-" class="anchor" href="#for-loops-" aria-hidden="true"><span class="octicon octicon-link"></span></a>for loops <br>
+</h4>
+
+<p>//for loops only run when the condition is true <br></p>
+
+<p>for (i = 1; i &lt;= 5; i++) { <br>
   document.write("Counting to 5"); <br>
 } <br></p>
 
-<p>for (j = 0; j &lt;= 20; j++) { <br></p>
+<p>//with conditional
+for (j = 0; j &lt;= 20; j++) { <br></p>
 
 <p>if((j % 2) === 0) { <br>
     continue; <br>
@@ -134,6 +215,23 @@ for (i = 1; i &lt;= 5; i++) { <br>
     break; <br>
   } <br>
   document.write(j + "<br>"); <br>
+} <br></p>
+
+<p>//using var
+for (var counter = 1; counter &lt; 11; counter++) { <br>
+    console.log(counter); <br>
+} <br></p>
+
+<p>//increment by 5 <br>
+for (var i = 5; i &lt; 51; i+=5) { <br>
+    console.log(i); <br>
+} <br></p>
+
+<p>//using .length <br>
+var names = ["john", "paul", "george", "ringo", "fred"]; <br>
+<br>
+for(i=0; i &lt; names.length; i++) { <br>
+    console.log("I know someone called " + names[i]); <br>
 } <br></p>
       </section>
       <footer>
