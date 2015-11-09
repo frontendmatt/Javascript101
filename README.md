@@ -152,3 +152,12 @@ for (var counter = 1; counter < 11; counter++) { <br>
 for (var i = 5; i < 51; i+=5) { <br>
 	console.log(i); <br>
 } <br>
+
+//using .length <br>
+var names = ["john", "paul", "george", "ringo", "fred"]; <br>
+<br>
+for(i=0; i < names.length; i++) { <br>
+    console.log("I know someone called " + names[i]); <br>
+} <br>
+
+
