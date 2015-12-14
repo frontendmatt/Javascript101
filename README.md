@@ -33,3 +33,5 @@ var batwing = { <br>
 if (batwing.status === "ready") {
 	batwing.rescueBatman();
 }
+
+http://frontendmatt.github.io/Javascript101
