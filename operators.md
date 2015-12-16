@@ -40,5 +40,14 @@ assign %= 50;
 
 document.write(assign); 
 
+
+####ternary operator 
+
+(condition) ? ifTrue : ifFalse 
+
+var drinks = (age >= 21) ? true : false; 
+
+
+
 </pre>
 
