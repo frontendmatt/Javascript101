@@ -28,6 +28,17 @@ switch(age) { <br>
 }
 
 –––––––––––––––––––––––
+>> if statement <<
+–––––––––––––––––––––––
+
+var ten = 10;
+var twenty = 20;
+
+if( ten <= twenty){
+  document.write("the condition is true");
+}
+
+–––––––––––––––––––––––
 >> if else statement <<
 –––––––––––––––––––––––
 
