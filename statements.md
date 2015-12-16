@@ -1,6 +1,7 @@
 <pre>
-
-###return statement
+–––––––––––––––––––––––
+>> return statement << 
+–––––––––––––––––––––––
 
 function salty(){  
 
@@ -10,8 +11,10 @@ function salty(){
 document.write(salty());
 
 
-###conditional statements
-####switch statement <br>
+conditional statements
+––––––––––––––––––––––
+>> switch statement << 
+––––––––––––––––––––––
 var age = 5; <br>
 switch(age) { <br>
 	case 6 : <br>
@@ -24,7 +27,10 @@ switch(age) { <br>
 		document.write("You are 3"); <br>
 }
 
-####if else statement <br>
+–––––––––––––––––––––––
+>> if else statement <<
+–––––––––––––––––––––––
+
 function sleepCheck(numHours) { <br>
     if(numHours >=8) { <br>
     return "You're getting plenty of sleep! Maybe even too much!"; <br>
