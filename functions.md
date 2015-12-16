@@ -38,7 +38,7 @@ document.write("I am first");
 
 function doSecond(){
 
-document.write("<p /> I am second");
+document.write("I am second");
 
 }
 
