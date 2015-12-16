@@ -16,7 +16,9 @@ boston("dave");
 <pre>
 
 function blue(name){
+
 return "you so greasy " + name;
+
 }
 
 document.write(blue("dave")); 
@@ -27,6 +29,7 @@ document.write(blue("dave"));
 ###calling functions from a function
 
 <pre>
+
 function doFirst(){
 
 document.write("I am first");
