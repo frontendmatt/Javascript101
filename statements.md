@@ -10,7 +10,7 @@ function salty(){
 
 document.write(salty());
 
-
+**********************
 conditional statements
 ––––––––––––––––––––––
 >> switch statement << 
