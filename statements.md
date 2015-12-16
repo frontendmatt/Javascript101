@@ -1,3 +1,5 @@
+<pre>
+
 ###return statement
 
 function salty(){  
@@ -22,10 +24,6 @@ switch(age) { <br>
 		document.write("You are 3"); <br>
 }
 
-####ternary operator <br>
-(condition) ? ifTrue : ifFalse <br>
-var drinks = (age >= 21) ? true : false; <br>
-
 ####if else statement <br>
 function sleepCheck(numHours) { <br>
     if(numHours >=8) { <br>
@@ -35,3 +33,5 @@ function sleepCheck(numHours) { <br>
   } <br>0
 }; <br>
 sleepCheck(10); <br>
+
+</pre>
