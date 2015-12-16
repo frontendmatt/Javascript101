@@ -23,6 +23,8 @@ if( ten <= twenty){
   document.write("the condition is true");
 }
 
+see also >= !== ===
+
 –––––––––––––––––––––––
 >> if else statement <<
 –––––––––––––––––––––––
