@@ -17,3 +17,4 @@ function blue(name){
 
 document.write(blue("dave")); </pre>
 
+
