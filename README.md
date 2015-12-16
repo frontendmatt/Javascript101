@@ -2,7 +2,7 @@
 
 ###Outline for online learning resouce and ebook
 
-#####When learning a new programming language usually people want to know:
+#####When learning a new programming language (like js) usually people want to know:
 
 * Whats is Javascript? 
 * How easy is it to learn? 
