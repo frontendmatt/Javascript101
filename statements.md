@@ -12,7 +12,6 @@ document.write(salty());
 
 **********************
 conditional statements
-
 –––––––––––––––––––––––
 >> if statement <<
 –––––––––––––––––––––––
