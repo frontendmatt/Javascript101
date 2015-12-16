@@ -12,20 +12,6 @@ document.write(salty());
 
 **********************
 conditional statements
-––––––––––––––––––––––
->> switch statement << 
-––––––––––––––––––––––
-var age = 5; <br>
-switch(age) { <br>
-	case 6 : <br>
-		document.write("You are 6"); <br>
-		break; <br>
-	case 4 : <br>
-		document.write("You are 4"); <br>
-		break; <br>
-	default : <br>
-		document.write("You are 3"); <br>
-}
 
 –––––––––––––––––––––––
 >> if statement <<
@@ -50,5 +36,20 @@ function sleepCheck(numHours) { <br>
   } <br>0
 }; <br>
 sleepCheck(10); <br>
+
+––––––––––––––––––––––
+>> switch statement << 
+––––––––––––––––––––––
+var age = 5; <br>
+switch(age) { <br>
+	case 6 : <br>
+		document.write("You are 6"); <br>
+		break; <br>
+	case 4 : <br>
+		document.write("You are 4"); <br>
+		break; <br>
+	default : <br>
+		document.write("You are 3"); <br>
+}
 
 </pre>
