@@ -28,16 +28,25 @@ document.write(blue("dave"));
 
 <pre>
 function doFirst(){
+
 document.write("I am first");
+
 }
+
 function doSecond(){
- document.write("<p /> I am second");
+
+document.write("<p /> I am second");
+
 }
 
 function start(){
+
 doFirst();
+
 doSecond();
+
 }
 
 start();
+
 </pre>
