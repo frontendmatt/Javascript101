@@ -8,5 +8,6 @@
 * How easy is it to learn? 
 * How long will it take to become proficient? 
 * Whats the best way to learn it?
+* Where can I see some real world practical examples?
 
 http://frontendmatt.github.io/Javascript101
