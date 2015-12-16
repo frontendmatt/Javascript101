@@ -4,7 +4,7 @@
 
 function boston(name){ 
 
-document.write("hello " + name + "<p />");
+document.write("hello " + name +);
 
 }
 
