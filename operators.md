@@ -43,7 +43,9 @@ document.write(assign);
 
 ####ternary operator 
 
-(condition) ? ifTrue : ifFalse 
+<b>Concept</b> : (condition) ? ifTrue : ifFalse 
+
+<b>Example</b> 
 
 var userInput = Number(prompt("Please enter a number", ""));
 
