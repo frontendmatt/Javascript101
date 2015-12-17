@@ -46,6 +46,7 @@ document.write(assign);
 (condition) ? ifTrue : ifFalse 
 
 var userInput = Number(prompt("Please enter a number", ""));
+
 var message = userInput % 2 === 0 ? "Your number is even" : "You number is odd";
 
 alert(message);
