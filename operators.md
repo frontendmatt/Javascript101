@@ -43,10 +43,10 @@ document.write(assign);
 
 ####ternary operator 
 
-<em>Concept</em>
+<em>Concept:</em>
 <b>(condition) ? ifTrue : ifFalse</b> 
 
-<em>Example</em> 
+<em>Example:</em> 
 var userInput = Number(prompt("Please enter a number", ""));
 
 var message = <b>userInput % 2 === 0 ? "Your number is even" : "You number is odd";</b>
