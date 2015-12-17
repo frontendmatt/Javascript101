@@ -53,6 +53,14 @@ var message = <b>userInput % 2 === 0 ? "Your number is even" : "You number is od
 
 alert(message);
 
+<em>with multiple statements</em>
+var userInput = Number(prompt("Please enter a number", ""));
+
+var message = userInput % 2 === 0 ? 
+        (alert("Your number is even"), 
+        alert("and your number is " + userInput)) : 
+        (alert("You number is odd"), 
+        alert("and your number is " + userInput));
 
 
 </pre>
