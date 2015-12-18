@@ -28,9 +28,9 @@ while(monthNumber <= monthsToPrint){
 
   numCars = numCars * 4; 
 
-	console.log("There will be " + numCars + " cars after " 
+   console.log("There will be " + numCars + " cars after " 
 
-        	+ monthNumber + " month(s)!"); 
+   + monthNumber + " month(s)!"); 
 
   monthNumber++; 
 
@@ -72,13 +72,14 @@ for (j = 0; j <= 20; j++) {
   
   if((j % 2) === 0) { 
 
-    continue; 
+   continue; 
 
   } 
 
   if(j === 15) { 
 
-    break; 
+   break; 
+  
   } 
   
   document.write(j + "<br>"); 
@@ -109,7 +110,7 @@ var names = ["john", "paul", "george", "ringo", "fred"];
 
 for(i=0; i < names.length; i++) {
 
-    console.log("I know someone called " + names[i]); 
+   console.log("I know someone called " + names[i]); 
     
 } 
 
