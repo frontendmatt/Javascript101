@@ -11,7 +11,7 @@ var i = 1;
 
 while(i <= 10) { 
 
-  document.write(i + "\<br>"); 
+  document.write(i + ); 
 
   i++; 
 
@@ -82,7 +82,7 @@ for (j = 0; j <= 20; j++) {
   
   } 
   
-  document.write(j + "<br>"); 
+  document.write(j + ); 
   
 } 
 
