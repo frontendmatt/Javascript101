@@ -56,6 +56,21 @@ if(foo === bar){
   document.write("the variables are NOT equal");
 }
 
+<em>nesting if statements</em>
+var foo = 5;
+var bar = 6;
+var baz = 7;
+var qux = 4;
+
+if(foo !== bar){
+  if(qux > baz){
+    document.write("the condition is true"); 
+  } else {
+    document.write("the condition is false");
+  }
+} else {
+  document.write("foo and bar are NOT equal"); 
+}
 ––––––––––––––––––––––
 >> switch statement << 
 ––––––––––––––––––––––
