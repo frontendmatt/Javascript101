@@ -64,4 +64,3 @@ var message = userInput % 2 === 0 ?
 
 
 </pre>
-
