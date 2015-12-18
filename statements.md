@@ -69,7 +69,7 @@ if(foo === bar){
 }
 
 
-<em>nesting if statements</em>
+<em>nesting if statements:</em>
 
 var foo = 5;
 var bar = 6;
@@ -87,7 +87,7 @@ if(foo !== bar){
 }
 
 
-<em>alternative to nesting</em>
+<em>alternative to nesting:</em>
 
 var foo = 5;
 var bar = 6;
@@ -99,7 +99,7 @@ if( (foo===5) && (bar===6) ){
 }
 
 
-<em>complex condition either or</em>
+<em>complex condition either or:</em>
 
 var baz = 5;
 var qux = 6;
