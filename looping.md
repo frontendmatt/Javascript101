@@ -57,7 +57,7 @@ alert("You got it!!!");
 //for loops only run when the condition is true 
 
 
-<em>concept</em>
+<em>concept:</em>
 
 for (i = 1; i <= 5; i++) { 
 
