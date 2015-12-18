@@ -38,7 +38,7 @@ if(0<1){
 
 <em>example:</em>
 function sleepCheck(numHours) { 
-    if(numHours >=8) { 
+    if(numHours >= 8) { 
     return "You sleep well"; 
 } else { 
     return "Are you tired?"; 
@@ -46,6 +46,15 @@ function sleepCheck(numHours) {
 }
 document.write(sleepCheck(7)); 
 
+<em>example 2:</em>
+var foo = 10;
+var bar = 20;
+
+if(foo === bar){
+  document.write("the variables are equal");
+} else {
+  document.write("the variables are NOT equal");
+}
 
 ––––––––––––––––––––––
 >> switch statement << 
