@@ -29,7 +29,7 @@ see also >= !== === < >
 >> if else statement <<
 –––––––––––––––––––––––
 
-<em>Concept</em>
+<em>concept</em>
 if(0<1){
   document.write("this is true");
 } else {
