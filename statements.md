@@ -29,14 +29,23 @@ see also >= !== === < >
 >> if else statement <<
 –––––––––––––––––––––––
 
-function sleepCheck(numHours) { <br>
-    if(numHours >=8) { <br>
-    return "You're getting plenty of sleep! Maybe even too much!"; <br>
-} else { <br>
-    return "Get some more shut eye!"; <br>
-  } <br>0
-}; <br>
-sleepCheck(10); <br>
+<em>Concept</em>
+if(0<1){
+  document.write("this is true");
+} else {
+  document.write("this is false");
+}
+
+<em>example</em>
+function sleepCheck(numHours) { 
+    if(numHours >=8) { 
+    return "You sleep well"; 
+} else { 
+    return "Are you tired?"; 
+  } 
+}
+document.write(sleepCheck(7)); 
+
 
 ––––––––––––––––––––––
 >> switch statement << 
