@@ -29,14 +29,14 @@ see also >= !== === < >
 >> if else statement <<
 –––––––––––––––––––––––
 
-<em>concept</em>
+<em>concept:</em>
 if(0<1){
   document.write("this is true");
 } else {
   document.write("this is false");
 }
 
-<em>example</em>
+<em>example:</em>
 function sleepCheck(numHours) { 
     if(numHours >=8) { 
     return "You sleep well"; 
