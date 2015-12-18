@@ -30,7 +30,7 @@ while(monthNumber <= monthsToPrint){
 
 	console.log("There will be " + numCars + " cars after " 
 
-              + monthNumber + " month(s)!"); 
+        	+ monthNumber + " month(s)!"); 
 
   monthNumber++; 
 
