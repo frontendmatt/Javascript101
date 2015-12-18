@@ -125,13 +125,13 @@ switch(name) {
 	
     document.write("Hi " + name); 
 		
-    break; 
+  break; 
 	
   case "amy" : 
 	
     document.write("Hi " + name); 
 		
-    break; 
+  break; 
 	
   default : 
 	
