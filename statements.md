@@ -37,13 +37,16 @@ see also >= !== === < >
 
 
 <em>concept:</em>
+
 if(0<1){
   document.write("this is true");
 } else {
   document.write("this is false");
 }
 
+
 <em>example:</em>
+
 function sleepCheck(numHours) { 
     if(numHours >= 8) { 
     return "You sleep well"; 
@@ -53,7 +56,9 @@ function sleepCheck(numHours) {
 }
 document.write(sleepCheck(7)); 
 
+
 <em>example 2:</em>
+
 var foo = 10;
 var bar = 20;
 
@@ -63,7 +68,9 @@ if(foo === bar){
   document.write("the variables are NOT equal");
 }
 
+
 <em>nesting if statements</em>
+
 var foo = 5;
 var bar = 6;
 var baz = 7;
@@ -82,7 +89,6 @@ if(foo !== bar){
 
 <em>alternative to nesting</em>
 
-
 var foo = 5;
 var bar = 6;
 
@@ -94,7 +100,6 @@ if( (foo===5) && (bar===6) ){
 
 
 <em>complex condition either or</em>
-
 
 var baz = 5;
 var qux = 6;
