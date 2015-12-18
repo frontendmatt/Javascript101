@@ -1,7 +1,9 @@
 <pre>
+
 –––––––––––––––––––––––
 >> return statement << 
 –––––––––––––––––––––––
+
 
 function salty(){  
 
@@ -10,11 +12,14 @@ function salty(){
 
 document.write(salty());
 
+
 **********************
 conditional statements
+
 –––––––––––––––––––––––
 >> if statement <<
 –––––––––––––––––––––––
+
 
 var ten = 10;
 var twenty = 20;
@@ -25,9 +30,11 @@ if( ten <= twenty){
 
 see also >= !== === < >
 
+
 –––––––––––––––––––––––
 >> if else statement <<
 –––––––––––––––––––––––
+
 
 <em>concept:</em>
 if(0<1){
@@ -71,9 +78,13 @@ if(foo !== bar){
 } else {
   document.write("foo and bar are NOT equal"); 
 }
+
+
 ––––––––––––––––––––––
 >> switch statement << 
 ––––––––––––––––––––––
+
+
 var age = 5; <br>
 switch(age) { <br>
 	case 6 : <br>
