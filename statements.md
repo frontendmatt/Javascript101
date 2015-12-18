@@ -80,6 +80,33 @@ if(foo !== bar){
 }
 
 
+<em>alternative to nesting</em>
+
+
+var foo = 5;
+var bar = 6;
+
+if( (foo===5) && (bar===6) ){
+  document.write("all things are equal");
+} else {
+  document.write("all things are NOT equal");
+}
+
+
+<em>complex condition either or</em>
+
+
+var baz = 5;
+var qux = 6;
+
+if( (baz===8) || (qux===7) ){
+  document.write("the result is true");
+} else {
+  document.write("the result is false");
+}
+
+
+
 ––––––––––––––––––––––
 >> switch statement << 
 ––––––––––––––––––––––
