@@ -117,17 +117,28 @@ if( (baz===8) || (qux===7) ){
 ––––––––––––––––––––––
 
 
-var age = 5; <br>
-switch(age) { <br>
-	case 6 : <br>
-		document.write("You are 6"); <br>
-		break; <br>
-	case 4 : <br>
-		document.write("You are 4"); <br>
-		break; <br>
-	default : <br>
-		document.write("You are 3"); <br>
+var name = "bob"; 
+
+switch(name) { 
+
+  case "john" : 
+	
+    document.write("Hi " + name); 
+		
+    break; 
+	
+  case "amy" : 
+	
+    document.write("Hi " + name); 
+		
+    break; 
+	
+  default : 
+	
+    document.write("Hi " + name); 
+
 }
+
 
 </pre>
 
